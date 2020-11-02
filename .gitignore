@@ -1,0 +1,5 @@
+.terraform*
+terraform.*
+
+init_world/save.sh
+script/credentials.sh
