@@ -1,8 +1,10 @@
 #!/bin/bash
-echo "Init credentials"
-sh . ./script/credentials.sh
+echo "Generate terraform config"
+sh ./script/generate_terraform_config.sh
+
 echo "Upload init backup server"
 sh ./script/upload_init_world.sh
+
 echo "Init project"
 sh ./script/init.sh
 

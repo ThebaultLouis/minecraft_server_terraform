@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Init credentials"
-sh . ./script/credentials.sh
+echo "Generate terraform config"
+sh ./script/generate_terraform_config.sh
 
 echo "Starting project"
 sh ./script/start.sh
