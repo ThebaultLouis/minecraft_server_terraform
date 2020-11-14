@@ -1,4 +1,4 @@
 #!/bin/bash
 SERVER_IP=$(python ./script/python/getServerIP.py)
 echo "Connecting to ${SERVER_IP}"
-ssh -t -o "StrictHostKeyChecking no" root@${SERVER_IP} "cd ${AWS_S3_BACKUP_NAME};bash -l"
+ssh -t -o "StrictHostKeyChecking no" root@${SERVER_IP} "cd ${BACKUP_NAME}; chmod +x start.sh; ./start.sh"

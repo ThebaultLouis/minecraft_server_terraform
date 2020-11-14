@@ -1,6 +1,7 @@
 .terraform*
 terraform.*
 
+worlds/
 init_world/save.sh
 script/credentials.sh
 *.tfvars

@@ -1,6 +1,0 @@
-echo "${DO_PAT}"
-echo "${AWS_ACCESS_KEY_ID}"
-echo "${AWS_SECRET_ACCESS_KEY}"
-echo "${AWS_DEFAULT_REGION}"
-echo "${AWS_S3_BUCKET_NAME}"
-echo "${AWS_S3_BACKUP_NAME}"
