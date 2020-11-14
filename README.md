@@ -1,4 +1,4 @@
-# Minecraft Server x Terraform x Digital Ocean x AWS S3
+# Minecraft Server x Terraform x Digital Ocean
 
 If it is your first time using terraform or digital ocean, I would recommand you to follow the Setup section steps before the Usage section steps.
 

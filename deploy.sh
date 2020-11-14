@@ -16,4 +16,4 @@ sh ./script/sftp/upload_world_to_server.sh
 sh ./script/zip/unzip_world.sh
 
 echo "Connecting to shh"
-sh ./script/connect_to_ssh.sh
+sh ./script/start_server.sh
