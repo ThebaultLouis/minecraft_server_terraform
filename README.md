@@ -34,6 +34,15 @@ save-all
 # Setup
 All the digital ocean and terraform steps are inspired from the follwing tutorial https://github.com/ThebaultLouis/minecraft_server_terraform
 ## Account setup
+### Bot Discord
+1. Create a new application with your discord account (https://discord.com/developers/applications)
+2. Save your client ID in the general information panel
+3. Create a bot by going to the Bot panel and save its Token
+4. Add your bot to your server by replacing the *CLIENT_ID* by yours https://discord.com/oauth2/authorize?client_id=*CLIENT_ID*&scope=bot&permissions=8
+5. In Discord, go to parameters -> Appearance -> Advanced and toggle on Developer Mode
+6. Go to the bot server, right click on the general text channel and save the identifier
+7. Create an *.env* file with your *DISCORD_BOT_TOKEN* and *DISCORD_CHANNEL_ID*
+
 ### Digital Ocean
 1. Create an account on Digital Ocean (https://m.do.co/c/bedbca3642a8)
 2. Go on API -> Tokens/keys

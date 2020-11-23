@@ -8,6 +8,9 @@ sh ./script/terraform/start.sh
 echo "Minecraft server on :"
 python ./script/python/getMinecraftServerIP.py
 
+echo "Sending minecraft server IP to discord channel"
+python3 ./script/python/sendMinecraftServerIPToUser.py
+
 # Accept fingerprint
 sh ./script/sftp/accept_fingerprint.sh
 # Uploading backup to server
