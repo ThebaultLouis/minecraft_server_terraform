@@ -18,9 +18,9 @@ resource "digitalocean_droplet" "minecraft" {
     inline = [
       "export PATH=$PATH:/usr/bin",
       # install dependecies
-      "sudo apt-get update",
+      "sudo apt update",
       # "sudo apt-get -y upgrade",
-      "sudo apt-get -y install openjdk-8-jdk zip"
+      "sudo apt -y install openjdk-8-jdk zip"
       # "sudo apt-get -y install zip",
     ]
   }
